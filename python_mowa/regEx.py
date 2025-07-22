@@ -69,12 +69,14 @@ tweet=re.sub(r'\s+',' ',tweet)
 tweet=tweet.strip()
 print(tweet)
 
+
 def similar(str1, str2):
     pattern=str1.replace('_','.')
-    pattern=r"^{pattern}$"
+    pattern=f"^{pattern}$"
     words=str2.split(':')
     matches=[word.upper() for word in words if re.match(pattern,word,re.IGNORECASE)]
     return ':'.join(matches)
+
 str1="Fi_er"
 str2="Fever:filer:Filter:Fixer:fiber:fibre:tailor:offer"
 print(similar(str1,str2))
