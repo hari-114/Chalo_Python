@@ -1,0 +1,16 @@
+set1={1,2,3,4,5}
+print("SET 1")
+print(set1)
+set1.remove(2)
+print(set1)
+print("SET 2")
+set2={4,5,6,7}
+print(set2)
+print("INTERSECTION")
+inter= set1.intersection(set2) 
+print(inter)
+print("UNION")
+union=set1.union(set2)
+print(union)
+print(max(set1))
+print(min(set2))

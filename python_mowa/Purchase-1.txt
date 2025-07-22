@@ -1,0 +1,8 @@
+Chocolate 50
+Biscuit 20
+Doll 100
+Books 20
+coupon free
+Cooldrinks 200
+IceCream free
+Discount 70
